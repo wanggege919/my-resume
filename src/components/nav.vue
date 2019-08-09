@@ -15,7 +15,7 @@
         </li>
       </ul>
       <button class="btn-default btnpdf animated swing">
-        <a href="https://wuliguaiguaia.github.io/Alias/pdf/pdf.html" target="_blank">查看PDF</a>
+        <a href="https://wanggege919.github.io/my-resume/pdf/pdf.html" target="_blank">查看PDF</a>
       </button>
     </div>
     <div class="nav-top fixed-top">
