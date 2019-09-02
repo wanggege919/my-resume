@@ -43,7 +43,7 @@
             </svg>
           </div>
           <div>
-            <a href="https://www.zhihu.com/people/da-da-da-xiao-jie-82/posts" target="_blank">森仪</a>
+            <a href="https://www.jianshu.com/u/6806081fb1cd" target="_blank">在路上919</a>
           </div>
         </div>
       </div>

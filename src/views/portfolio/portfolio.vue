@@ -10,30 +10,30 @@
               <!-- -->
               <div class="tem">
                 <div class="title">
-                  <h2>网易云音乐</h2>
+                  <h2>Vue2.5 开发去哪儿网</h2>
                 </div>
-                <div class="desc">仿移动端网易云音乐，包含后台管理系统，支持上传歌曲，歌词，编辑歌曲，删除等，支持定制歌单。可在线听歌，查看歌词等。</div>
+                <div class="desc">仿移动端去哪儿网，使用mock数据，支持根据不同城市选择不同景点的功能，首页多区域轮播，城市的展示搜索，城市左侧字母与右侧区块动画联动等等</div>
                 <div class="info">
                   <ol class="showStyle">
-                    <li>使用语言：html + css + sass + javascript + jquery</li>
-                    <li>使用 flex/vw/vh 进行移动端适配，并定制全局 reset.css</li>
-                    <li>使用 localStorage 存储用户搜索历史</li>
-                    <li>仿 vueJs 构建 MVC 设计模式,编写 eventHub 发布订阅模式进行各模块间逻辑交互</li>
-                    <li>learnCloud 进行数据库存储,七牛云文件上传</li>
+                    <li>使用语言：vue + vue-cli + axios + vuex + vue-router + stylus + eslint + es6</li>
+                    <li>使用 vue-router 进行路由管理，与vueJs集成构建单页应用，分模块化配置</li>
+                    <li>使用 axios + promise 异步请求</li>
+                    <li>使用 swiper + better-scroll + animate.css 插件</li>
+                    <li>使用 stylus 语法：嵌套，混入，函数等</li>
                   </ol>
                 </div>
                 <div class="link">
                   <button class>
                     <a
                       class="btn-default"
-                      href="https://github.com/wuliguaiguaia/netease-music"
+                      href="https://github.com/wanggege919/travel-new"
                       target="_blank"
                     >项目源码</a>
                   </button>
                   <button class>
                     <a
                       class="btn-default"
-                      href="https://wuliguaiguaia.github.io/netease-music/src/index.html"
+                      href="https://wanggege919.github.io/travel-new/dist/index.html"
                       target="_blank"
                     >项目预览</a>
                   </button>
@@ -46,13 +46,13 @@
               </div>
             </div>
           </transition>
-          <transition name="rightMove">
+          <!-- <transition name="rightMove">
             <div class="right" v-show="show(0,'showRight')">
               <div class="pic">
                 <myswiper :lists="musicList"></myswiper>
               </div>
             </div>
-          </transition>
+          </transition> -->
         </div>
       </div>
       <!-- <div id="bottomIcon">
@@ -71,31 +71,29 @@
               <!-- -->
               <div class="tem">
                 <div class="title">
-                  <h2>有赞商城</h2>
+                  <h2>Vue.js搭建CNODE社区</h2>
                 </div>
-                <div class="desc">仿移动端有赞商城，使用mock数据，支持地址编辑，购物车结算，查看商品，搜索商品及店铺等功能。</div>
+                <div class="desc">该项目是利用Vue.js以及CNODE社区API搭建的一个简易版CNODE社区</div>
                 <div class="info">
                   <ol class="showStyle">
-                    <li>使用语言：vue + axios + vuex + vue-router + sass + eslint + es6</li>
-                    <li>使用 vue-cli3 进行原型开发并配置 vue.config.js</li>
-                    <li>使用 vuex 进行地址状态管理，支持增删改查</li>
-                    <li>使用 axios + promise 异步请求</li>
-                    <li>使用 easy-mock 接口管理平台，使用 mock.js 进行数据模拟</li>
-                    <li>使用 mint-ui + velocity-animate 插件</li>
+                    <li>技术栈：vue + vue-cli + axios + vue-router + es6</li>
+                    <li>项目内容：包括文章列表页，文章详情页，作者页面等</li>
+                    <li>利用组件化开发，项目由Header,PostList,Artical,UserInfo,SlideBar,Pagination等组件组成</li>
+                    <li>使用 vue-router 进行路由管理，与vueJs集成构建单页应用，分模块化配置</li>
                   </ol>
                 </div>
                 <div class="link">
                   <button class>
                     <a
                       class="btn-default"
-                      href="https://github.com/wuliguaiguaia/vue_youzan"
+                      href="https://github.com/wanggege919/cnode"
                       target="_blank"
                     >项目源码</a>
                   </button>
                   <button class>
                     <a
                       class="btn-default"
-                      href=" https://wuliguaiguaia.github.io/vue_youzan/dist/index.html"
+                      href=" https://wanggege919.github.io/cnode/dist/index.html"
                       target="_blank"
                     >项目预览</a>
                   </button>
@@ -108,13 +106,13 @@
               </div>
             </div>
           </transition>
-          <transition name="rightMove">
+          <!-- <transition name="rightMove">
             <div class="right" v-show="show(1,'showRight')">
               <div class="pic">
                 <myswiper :lists="mallList"></myswiper>
               </div>
             </div>
-          </transition>
+          </transition> -->
         </div>
       </div>
       <!-- <div id="bottomIcon">
@@ -133,29 +131,32 @@
               <!-- -->
               <div class="tem">
                 <div class="title">
-                  <h2>猿译 for fun</h2>
+                  <h2>Vue.js搭建音乐播放器</h2>
                 </div>
-                <div class="desc">一款多功能翻译小程序，支持多语言，历史，收藏，留言等功能，使用云开发与本地存储。</div>
+                <div class="desc">该项目是利用Vue.js以及从QQ音乐的开放的接口抓来的数据完成的一款音乐播放器</div>
                 <div class="info">
                   <ol class="showStyle">
-                    <li>使用web存储用户搜索，用户便于查看翻译记录</li>
-                    <li>使用云开发做用户收藏，用数据库进行永久存储</li>
-                    <li>历史页面与收藏页面关联，可随时控制是否收藏</li>
-                    <li>留言页面详细记录用户信息且用户可删除</li>
+                    <li>使用语言：vue + vue-cli + axios + vuex + vue-router + stylus + eslint + es6 + jsonp</li>
+                    <li>使用 vue-router 进行路由管理，与vueJs集成构建单页应用，分模块化配置</li>
+                    <li>使用 vuex 进行地址状态管理，支持增删改查</li>
+                    <li>使用 axios + promise 异步请求</li>
+                    <li>使用 组件化开发，整个项目由页面的基本组件，公用组件完成</li>
+                    <li>使用 swiper + better-scroll + animate.css 插件</li>
+                    <li>使用 stylus 语法：嵌套，混入，函数等</li>
                   </ol>
                 </div>
                 <div class="link">
                   <button class>
                     <a
                       class="btn-default"
-                      href="https://github.com/wuliguaiguaia/miniprogram-translate"
+                      href="https://github.com/wanggege919/vue-music"
                       target="_blank"
                     >项目源码</a>
                   </button>
                   <button class>
                     <a
                       class="btn-default"
-                      href="https://i.loli.net/2019/02/22/5c6ecf52dcd38.jpg"
+                      href="https://wanggege919.github.io/vue-music/dist/index.html"
                       target="_blank"
                     >项目预览</a>
                   </button>
@@ -168,13 +169,13 @@
               </div>
             </div>
           </transition>
-          <transition name="rightMove">
+          <!-- <transition name="rightMove">
             <div class="right" v-show="show(2,'showRight')">
               <div class="pic">
                 <myswiper :lists="transList"></myswiper>
               </div>
             </div>
-          </transition>
+          </transition> -->
         </div>
       </div>
     </section>
@@ -186,32 +187,30 @@
               <!-- -->
               <div class="tem">
                 <div class="title">
-                  <h2>调皮的机器猫</h2>
+                  <h2>文章电影小分享(小程序)</h2>
                 </div>
-                <div class="desc">这是一个用css3向画面绘制机器猫的项目，亮点在于添加文本与绘制图形同步进行，让用户直观看到整个绘制过程。</div>
+                <div class="desc">该项目是通过 mock 数据中的文章音乐以及豆瓣接口抓取的电影资源组成的一个微信端小程序。</div>
                 <div class="info">
                   <ol class="showStyle">
-                    <li>可选择重新绘制将整个画面重置</li>
-                    <li>可加速减速控制绘制节奏</li>
-                    <li>可随时暂停或直接跳过观看结果</li>
-                    <li>learnCloud添加留言功能</li>
+                    <li>熟悉了小程序的模板以及组件的使用</li>
+                    <li>学习了小程序内音乐播放前后台切换以及页面的显示和隐藏的同步</li>
                   </ol>
                 </div>
                 <div class="link">
                   <button class>
                     <a
                       class="btn-default"
-                      href="https://github.com/wuliguaiguaia/animation-Doraemon"
+                      href="https://github.com/wanggege919/movieShareApplet"
                       target="_blank"
                     >项目源码</a>
                   </button>
-                  <button class>
+                  <!-- <button class>
                     <a
                       class="btn-default"
                       href="https://wuliguaiguaia.github.io/animation-Doraemon/index.html"
                       target="_blank"
                     >项目预览</a>
-                  </button>
+                  </button> -->
                 </div>
                 <div class="slide-icon">
                   <svg class="icon" aria-hidden="true">
@@ -221,13 +220,13 @@
               </div>
             </div>
           </transition>
-          <transition name="rightMove">
+          <!-- <transition name="rightMove">
             <div class="right" v-show="show(3,'showRight')">
               <div class="pic">
                 <myswiper :lists="DoraemonList"></myswiper>
               </div>
             </div>
-          </transition>
+          </transition> -->
         </div>
       </div>
     </section>
@@ -248,27 +247,27 @@ export default {
       dir: "hor",
       status: "showLeft",
       media: "",
-      musicList: [
-        { img: require("./music/page1.jpg") },
-        { img: require("./music/page2.jpg") },
-        { img: require("./music/page3.jpg") },
-        { img: require("./music/page4.jpg") },
-        { img: require("./music/page5.jpg") }
-      ],
-      transList: [
-        { img: require("./translate/page1.jpg") },
-        { img: require("./translate/page2.jpg") },
-        { img: require("./translate/page3.jpg") },
-        { img: require("./translate/page5.jpg") },
-        { img: require("./translate/page4.jpg") }
-      ],
-      mallList: [
-        { img: require("./mall/page1.jpg") },
-        { img: require("./mall/page2.jpg") },
-        { img: require("./mall/page3.jpg") },
-        { img: require("./mall/page5.jpg") },
-        { img: require("./mall/page4.jpg") }
-      ],
+      // musicList: [
+      //   { img: require("./music/page1.jpg") },
+      //   { img: require("./music/page2.jpg") },
+      //   { img: require("./music/page3.jpg") },
+      //   { img: require("./music/page4.jpg") },
+      //   { img: require("./music/page5.jpg") }
+      // ],
+      // transList: [
+      //   { img: require("./translate/page1.jpg") },
+      //   { img: require("./translate/page2.jpg") },
+      //   { img: require("./translate/page3.jpg") },
+      //   { img: require("./translate/page5.jpg") },
+      //   { img: require("./translate/page4.jpg") }
+      // ],
+      // mallList: [
+      //   { img: require("./mall/page1.jpg") },
+      //   { img: require("./mall/page2.jpg") },
+      //   { img: require("./mall/page3.jpg") },
+      //   { img: require("./mall/page5.jpg") },
+      //   { img: require("./mall/page4.jpg") }
+      // ],
       DoraemonList: [
         { img: require("./Doraemon/1.jpg") },
         { img: require("./Doraemon/2.jpg") }
@@ -374,45 +373,9 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.leftMove-enter,
-.leftMove-leave-to {
-  transform: translateX(-100%);
-}
-.leftMove-enter-active,
-.leftMove-leave-active {
-  transition: transform 1s;
-}
-.leftMove-enter-to,
-.leftMove-leave {
-  transform: translateX(0);
-}
 
-.rightMove-enter,
-.rightMove-leave-to {
-  transform: translateX(100%);
-}
-.rightMove-enter-active,
-.rightMove-leave-active {
-  transition: transform 1s;
-}
-.rightMove-enter-to,
-.rightMove-leave {
-  transform: translateX(0);
-}
-
-.proslide-enter {
-  transform: translateY(100%);
-}
-.proslide-leave-to {
-  transform: translateY(-100%);
-}
-.proslide-enter-active,
-.proslide-leave-active {
-  transition: transform 1s;
-}
-.proslide-enter-to,
-.proslide-leave {
-  transform: translateY(0);
+.content {
+  justify-content: center
 }
 
 ol.showStyle{

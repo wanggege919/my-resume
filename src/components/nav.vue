@@ -191,15 +191,15 @@ export default {
   }
 }
 
-.slidenav-enter,
-.slidenav-leave-to {
-  left: -100%;
-}
-.slidenav-enter-active,
-.slidenav-leave-active {
-  transition: left 0.5s;
-  left: 0;
-}
+// .slidenav-enter,
+// .slidenav-leave-to {
+//   left: -100%;
+// }
+// .slidenav-enter-active,
+// .slidenav-leave-active {
+//   transition: left 0.5s;
+//   left: 0;
+// }
 
 @media screen and (max-width: 768px) {
   .nav {

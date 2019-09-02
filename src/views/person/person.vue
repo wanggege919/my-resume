@@ -240,7 +240,6 @@ export default {
 
 .section2 {
   padding: 45px;
-
   .header {
     color: #fff;
     position: relative;

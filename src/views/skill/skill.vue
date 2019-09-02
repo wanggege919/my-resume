@@ -80,6 +80,7 @@ export default {
           .first()
           .addClass("scale");
       }, 50);
+      console.log($(".skill .box").first().offset().top)
     },
     initScroll() {
       $("#app .container").on("scroll", function(e) {
