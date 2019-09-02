@@ -66,7 +66,6 @@
     <section class="section2 item-wrapper">
       <div class="item">
         <div class="content flex">
-          <transition name="leftMove">
             <div class="left jusCenter-alignCenter" v-show="show(1,'showLeft')">
               <!-- -->
               <div class="tem">
@@ -104,29 +103,14 @@
                   </svg>
                 </div>
               </div>
-            </div>
-          </transition>
-          <!-- <transition name="rightMove">
-            <div class="right" v-show="show(1,'showRight')">
-              <div class="pic">
-                <myswiper :lists="mallList"></myswiper>
-              </div>
-            </div>
-          </transition> -->
+            </div>         
         </div>
       </div>
-      <!-- <div id="bottomIcon">
-        <svg class="icon" aria-hidden="true">
-          <use xlink:href="#icon-shuangjiantouxia"></use>
-        </svg>
-      </div> -->
+     
     </section>
-    <!-- </transition> -->
-    <!-- <transition name="proslide"> -->
     <section class="section3 item-wrapper">
       <div class="item">
         <div class="content flex">
-          <transition name="leftMove">
             <div class="left jusCenter-alignCenter" v-show="show(2,'showLeft')">
               <!-- -->
               <div class="tem">
@@ -168,21 +152,12 @@
                 </div>
               </div>
             </div>
-          </transition>
-          <!-- <transition name="rightMove">
-            <div class="right" v-show="show(2,'showRight')">
-              <div class="pic">
-                <myswiper :lists="transList"></myswiper>
-              </div>
-            </div>
-          </transition> -->
         </div>
       </div>
     </section>
     <section class="section3 item-wrapper">
       <div class="item">
         <div class="content flex">
-          <transition name="leftMove">
             <div class="left jusCenter-alignCenter" v-show="show(2,'showLeft')">
               <!-- -->
               <div class="tem">
@@ -219,18 +194,9 @@
                 </div>
               </div>
             </div>
-          </transition>
-          <!-- <transition name="rightMove">
-            <div class="right" v-show="show(3,'showRight')">
-              <div class="pic">
-                <myswiper :lists="DoraemonList"></myswiper>
-              </div>
-            </div>
-          </transition> -->
         </div>
       </div>
     </section>
-    <!-- </transition> -->
   </div>
 </template>
 <script>
@@ -247,31 +213,10 @@ export default {
       dir: "hor",
       status: "showLeft",
       media: "",
-      // musicList: [
-      //   { img: require("./music/page1.jpg") },
-      //   { img: require("./music/page2.jpg") },
-      //   { img: require("./music/page3.jpg") },
-      //   { img: require("./music/page4.jpg") },
-      //   { img: require("./music/page5.jpg") }
+      // DoraemonList: [
+      //   { img: require("./Doraemon/1.jpg") },
+      //   { img: require("./Doraemon/2.jpg") }
       // ],
-      // transList: [
-      //   { img: require("./translate/page1.jpg") },
-      //   { img: require("./translate/page2.jpg") },
-      //   { img: require("./translate/page3.jpg") },
-      //   { img: require("./translate/page5.jpg") },
-      //   { img: require("./translate/page4.jpg") }
-      // ],
-      // mallList: [
-      //   { img: require("./mall/page1.jpg") },
-      //   { img: require("./mall/page2.jpg") },
-      //   { img: require("./mall/page3.jpg") },
-      //   { img: require("./mall/page5.jpg") },
-      //   { img: require("./mall/page4.jpg") }
-      // ],
-      DoraemonList: [
-        { img: require("./Doraemon/1.jpg") },
-        { img: require("./Doraemon/2.jpg") }
-      ],
     };
   },
   mounted() {
