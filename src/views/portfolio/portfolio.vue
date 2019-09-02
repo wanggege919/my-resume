@@ -78,7 +78,7 @@
                   <ol class="showStyle">
                     <li>技术栈：vue + vue-cli + axios + vue-router + es6</li>
                     <li>项目内容：包括文章列表页，文章详情页，作者页面等</li>
-                    <li>利用组件化开发，项目由Header,PostList,Artical,UserInfo,SlideBar,Pagination等组件组成</li>
+                    <!-- <li>利用组件化开发，项目由Header,PostList,Artical,UserInfo,SlideBar,Pagination等组件组成</li> -->
                     <li>使用 vue-router 进行路由管理，与vueJs集成构建单页应用，分模块化配置</li>
                   </ol>
                 </div>
